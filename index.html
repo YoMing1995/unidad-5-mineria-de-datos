@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Análisis comparativo de herramientas de minería de datos: WEKA, KNIME, Orange y RapidMiner.">
+    <title>Análisis de herramientas de minería de datos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#inicio" class="logo">Data<span>Mining</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#herramientas">Herramientas</a></li>
+                <li><a href="#comparacion">Comparación</a></li>
+                <li><a href="#empresas">Organizaciones</a></li>
+                <li><a href="#analisis">Análisis</a></li>
+                <li><a href="#conclusiones">Conclusiones</a></li>
+                <li><a href="#referencias">Referencias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PORTADA -->
+        <section class="hero" id="inicio">
+            <div class="hero-content container">
+                <p class="eyebrow">ESPECIALIZACIÓN EN ANALÍTICA DE DATOS</p>
+
+                <h1>
+                    Análisis comparativo de herramientas
+                    <span>de minería de datos</span>
+                </h1>
+
+                <p class="hero-description">
+                    Evaluación de WEKA, KNIME, Orange y RapidMiner,
+                    considerando sus funcionalidades, eficiencia,
+                    facilidad de uso y aplicación en contextos organizacionales.
+                </p>
+
+                <a href="#introduccion" class="btn-primary">
+                    Explorar el análisis
+                </a>
+            </div>
+        </section>
+
+        <!-- INTRODUCCIÓN -->
+        <section class="section container" id="introduccion">
+            <div class="section-heading">
+                <p class="eyebrow">CONTEXTO</p>
+                <h2>Introducción</h2>
+            </div>
+
+            <p>
+                La minería de datos es un proceso que permite descubrir
+                patrones, relaciones y conocimientos relevantes a partir
+                de grandes conjuntos de información. Su aplicación en las
+                organizaciones facilita la identificación de tendencias,
+                la segmentación de clientes, la detección de comportamientos
+                y la generación de modelos predictivos que apoyan la toma
+                de decisiones.
+            </p>
+
+            <p>
+                Actualmente existen diferentes herramientas tecnológicas
+                que facilitan la ejecución de estas actividades. Entre ellas
+                se destacan WEKA, KNIME, Orange y RapidMiner, plataformas
+                que ofrecen funcionalidades para preparar datos, aplicar
+                algoritmos de aprendizaje automático, visualizar resultados
+                y construir modelos analíticos.
+            </p>
+
+            <p>
+                El presente trabajo desarrolla un análisis comparativo de
+                estas cuatro herramientas, considerando sus características,
+                ventajas, limitaciones y posibles aplicaciones en el entorno
+                empresarial. También se revisan experiencias organizacionales
+                publicadas, diferenciando los casos documentados de las
+                referencias institucionales o de terceros.
+            </p>
+
+            <div class="info-box">
+                <strong>Alcance del análisis:</strong>
+                la eficiencia de una herramienta no depende únicamente
+                del software. También está relacionada con el tamaño y
+                calidad de los datos, los recursos de hardware, la experiencia
+                del usuario y los objetivos del proyecto.
+            </div>
+        </section>
+
+        <!-- OBJETIVOS -->
+        <section class="section section-light">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">PROPÓSITO</p>
+                    <h2>Objetivos</h2>
+                </div>
+
+                <div class="objectives-grid">
+                    <article class="objective-card">
+                        <div class="objective-number">01</div>
+                        <h3>Objetivo </h3>
+                        <p>
+                            Analizar comparativamente cuatro herramientas
+                            de minería de datos para identificar sus
+                            funcionalidades, ventajas, limitaciones y
+                            posibilidades de aplicación en las organizaciones.
+                        </p>
+                    </article>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- HERRAMIENTAS -->
+        <section class="section container" id="herramientas">
+            <div class="section-heading">
+                <p class="eyebrow">PLATAFORMAS ANALIZADAS</p>
+                <h2>Herramientas de minería de datos</h2>
+                <p>
+                    Cuatro alternativas que permiten desarrollar procesos
+                    de exploración, preparación, modelado y análisis de datos.
+                </p>
+            </div>
+
+            <div class="tools-grid">
+
+                <article class="tool-card">
+                    <div class="tool-icon">W</div>
+                    <h3>WEKA</h3>
+                    <p class="tool-type">Software libre y de código abierto</p>
+
+                    <p>
+                        WEKA (Waikato Environment for Knowledge Analysis)
+                        es una plataforma desarrollada por la Universidad
+                        de Waikato, en Nueva Zelanda. Está orientada al
+                        análisis de datos y al aprendizaje automático.
+                    </p>
+
+                    <h4>Funcionalidades principales</h4>
+                    <ul>
+                        <li>Clasificación y regresión.</li>
+                        <li>Agrupamiento o clustering.</li>
+                        <li>Reglas de asociación.</li>
+                        <li>Preprocesamiento de datos.</li>
+                        <li>Visualización de resultados.</li>
+                    </ul>
+
+                    <p class="tool-conclusion">
+                        <strong>Enfoque:</strong> experimentación con
+                        algoritmos de aprendizaje automático y análisis
+                        de conjuntos de datos.
+                    </p>
+
+                    <a href="https://www.waikato.ac.nz/int/research/institutes-centres-entities/institutes/artificial-intelligence-institute/research/software/"
+                        target="_blank" rel="noopener">
+                        Sitio y documentación institucional →
+                    </a>
+                </article>
+
+                <article class="tool-card featured">
+                    <div class="tool-icon">K</div>
+                    <h3>KNIME</h3>
+                    <p class="tool-type">Analítica visual basada en flujos de trabajo</p>
+
+                    <p>
+                        KNIME Analytics Platform permite construir procesos
+                        de análisis mediante nodos que representan operaciones
+                        de lectura, transformación, integración, modelado y
+                        visualización de datos.
+                    </p>
+
+                    <h4>Funcionalidades principales</h4>
+                    <ul>
+                        <li>Integración y transformación de datos.</li>
+                        <li>Procesos ETL.</li>
+                        <li>Aprendizaje automático.</li>
+                        <li>Automatización de flujos de trabajo.</li>
+                        <li>Integración con Python y R.</li>
+                    </ul>
+
+                    <p class="tool-conclusion">
+                        <strong>Enfoque:</strong> automatización de procesos
+                        analíticos e integración de diferentes fuentes de datos.
+                    </p>
+
+                    <a href="https://www.knime.com/" target="_blank" rel="noopener">
+                        Sitio oficial →
+                    </a>
+                </article>
+
+                <article class="tool-card">
+                    <div class="tool-icon">O</div>
+                    <h3>Orange</h3>
+                    <p class="tool-type">Programación visual mediante widgets</p>
+
+                    <p>
+                        Orange Data Mining es una herramienta de código
+                        abierto que permite desarrollar análisis de datos
+                        mediante componentes visuales llamados widgets.
+                        Está orientada a la exploración, visualización y
+                        construcción de modelos de aprendizaje automático.
+                    </p>
+
+                    <h4>Funcionalidades principales</h4>
+                    <ul>
+                        <li>Exploración y visualización interactiva.</li>
+                        <li>Clasificación y regresión.</li>
+                        <li>Clustering.</li>
+                        <li>Análisis de texto.</li>
+                        <li>Procesamiento de datos y evaluación de modelos.</li>
+                    </ul>
+
+                    <p class="tool-conclusion">
+                        <strong>Enfoque:</strong> aprendizaje práctico,
+                        análisis exploratorio y construcción visual de modelos.
+                    </p>
+
+                    <a href="https://orangedatamining.com/" target="_blank" rel="noopener">
+                        Sitio oficial →
+                    </a>
+                </article>
+
+                <article class="tool-card">
+                    <div class="tool-icon">R</div>
+                    <h3>RapidMiner</h3>
+                    <p class="tool-type">Plataforma de analítica e inteligencia artificial</p>
+
+                    <p>
+                        RapidMiner, actualmente integrado en el ecosistema
+                        de Altair, es una plataforma orientada a la analítica
+                        avanzada, preparación de datos, aprendizaje automático
+                        y desarrollo de modelos predictivos.
+                    </p>
+
+                    <h4>Funcionalidades principales</h4>
+                    <ul>
+                        <li>Preparación y transformación de datos.</li>
+                        <li>Modelos predictivos.</li>
+                        <li>Clasificación y regresión.</li>
+                        <li>Análisis de texto.</li>
+                        <li>Desarrollo y gestión de procesos analíticos.</li>
+                    </ul>
+
+                    <p class="tool-conclusion">
+                        <strong>Enfoque:</strong> proyectos de analítica
+                        avanzada y aplicación de modelos en contextos empresariales.
+                    </p>
+
+                    <a href="https://altair.com/altair-rapidminer" target="_blank" rel="noopener">
+                        Sitio de Altair RapidMiner →
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- COMPARACIÓN -->
+        <section class="section section-light" id="comparacion">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">EVALUACIÓN COMPARATIVA</p>
+                    <h2>Cuadro comparativo</h2>
+
+                </div>
+
+                <div class="table-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>CRITERIO</th>
+                                <th>WEKA</th>
+                                <th>KNIME</th>
+                                <th>ORANGE</th>
+                                <th>RAPIDMINER</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Tipo de herramienta</td>
+                                <td>Software de minería de datos</td>
+                                <td>Plataforma de analítica visual</td>
+                                <td>Minería de datos visual</td>
+                                <td>Plataforma de analítica avanzada</td>
+                            </tr>
+
+                            <tr>
+                                <td>Interfaz</td>
+                                <td>Gráfica y orientada a algoritmos</td>
+                                <td>Flujos de trabajo por nodos</td>
+                                <td>Widgets visuales</td>
+                                <td>Procesos visuales y analíticos</td>
+                            </tr>
+
+                            <tr>
+                                <td>Facilidad de aprendizaje</td>
+                                <td>Media</td>
+                                <td>Media</td>
+                                <td>Alta para principiantes</td>
+                                <td>Media</td>
+                            </tr>
+
+                            <tr>
+                                <td>Preparación de datos</td>
+                                <td>Buena</td>
+                                <td>Muy buena</td>
+                                <td>Buena</td>
+                                <td>Muy buena</td>
+                            </tr>
+
+                            <tr>
+                                <td>Clasificación y regresión</td>
+                                <td>Sí</td>
+                                <td>Sí</td>
+                                <td>Sí</td>
+                                <td>Sí</td>
+                            </tr>
+
+                            <tr>
+                                <td>Clustering</td>
+                                <td>Sí</td>
+                                <td>Sí</td>
+                                <td>Sí</td>
+                                <td>Sí</td>
+                            </tr>
+
+                            <tr>
+                                <td>Visualización</td>
+                                <td>Buena</td>
+                                <td>Amplia</td>
+                                <td>Muy interactiva</td>
+                                <td>Amplia</td>
+                            </tr>
+
+                            <tr>
+                                <td>Automatización de flujos</td>
+                                <td>Limitada frente a plataformas ETL</td>
+                                <td>Muy buena</td>
+                                <td>Orientada a flujos visuales</td>
+                                <td>Muy buena</td>
+                            </tr>
+
+                            <tr>
+                                <td>Integración con otros lenguajes</td>
+                                <td>Java</td>
+                                <td>Python y R, entre otros</td>
+                                <td>Python</td>
+                                <td>Integraciones según edición y entorno</td>
+                            </tr>
+
+                            <tr>
+                                <td>Uso recomendado</td>
+                                <td>Experimentación y aprendizaje automático</td>
+                                <td>ETL, automatización y analítica empresarial</td>
+                                <td>Exploración, docencia y prototipos</td>
+                                <td>Analítica avanzada y modelos predictivos</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="table-note">
+
+                </p>
+            </div>
+        </section>
+
+        <!-- ORGANIZACIONES -->
+        <section class="section container" id="empresas">
+            <div class="section-heading">
+                <p class="eyebrow">APLICACIÓN EN EL ENTORNO REAL</p>
+                <h2>Organizaciones y experiencias documentadas</h2>
+                <p>
+                    Se presentan ejemplos encontrados en fuentes públicas.
+                    El nivel de evidencia se especifica para evitar confundir
+                    un caso de uso empresarial con una mención, capacitación
+                    o registro tecnológico de terceros.
+                </p>
+            </div>
+
+            <div class="evidence-legend">
+                <span class="evidence strong">Caso empresarial documentado</span>
+                <span class="evidence medium">Experiencia institucional o formativa</span>
+                <span class="evidence limited">Registro de terceros / evidencia indirecta</span>
+            </div>
+
+            <!-- KNIME -->
+            <div class="company-group">
+                <div class="company-heading">
+                    <h3>KNIME</h3>
+                    <p>Casos empresariales publicados por KNIME y otras fuentes.</p>
+                </div>
+
+                <div class="company-grid">
+
+                    <article class="company-card">
+                        <span class="evidence strong">Caso empresarial documentado</span>
+                        <h4>Seagate</h4>
+                        <p class="industry">Fabricación y tecnología de almacenamiento</p>
+                        <p>
+                            Utiliza KNIME en procesos de análisis predictivo
+                            relacionados con la fabricación. La empresa
+                            reportó más de un millón de dólares en ahorros
+                            en un área de negocio y la participación de
+                            más de 150 colaboradores en iniciativas analíticas.
+                        </p>
+                        <a href="https://www.knime.com/success-story/how-seagate-benefited-upskilling-100s-data-citizens-knime"
+                            target="_blank" rel="noopener">Consultar caso →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence strong">Caso empresarial documentado</span>
+                        <h4>Continental</h4>
+                        <p class="industry">Industria automotriz</p>
+                        <p>
+                            KNIME publica un caso de adopción de la plataforma
+                            en Continental para apoyar procesos analíticos y
+                            decisiones basadas en datos.
+                        </p>
+                        <a href="https://www.knime.com/customers" target="_blank" rel="noopener">Consultar clientes y
+                            casos →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence strong">Caso empresarial documentado</span>
+                        <h4>Siemens</h4>
+                        <p class="industry">Tecnología e industria</p>
+                        <p>
+                            KNIME presenta experiencias de uso en Siemens
+                            relacionadas con el empoderamiento de usuarios
+                            de negocio y la automatización de tareas analíticas.
+                        </p>
+                        <a href="https://www.knime.com/customers" target="_blank" rel="noopener">Consultar clientes y
+                            casos →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence strong">Caso empresarial documentado</span>
+                        <h4>Rabobank</h4>
+                        <p class="industry">Servicios financieros</p>
+                        <p>
+                            Se registra un caso de aplicación de KNIME
+                            para apoyar la detección de anomalías en
+                            procesos de auditoría.
+                        </p>
+                        <a href="https://www.casestudies.com/company/knime" target="_blank" rel="noopener">Consultar
+                            recopilación de casos →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence strong">Caso empresarial documentado</span>
+                        <h4>Sparkasse</h4>
+                        <p class="industry">Servicios financieros</p>
+                        <p>
+                            Se documenta una experiencia de uso de KNIME
+                            para mejorar los resultados de campañas de
+                            productos financieros.
+                        </p>
+                        <a href="https://www.casestudies.com/company/knime" target="_blank" rel="noopener">Consultar
+                            recopilación de casos →</a>
+                    </article>
+
+                </div>
+            </div>
+
+            <!-- RAPIDMINER -->
+            <div class="company-group">
+                <div class="company-heading">
+                    <h3>RapidMiner / Altair RapidMiner</h3>
+                    <p>Casos publicados sobre el uso de la plataforma en organizaciones.</p>
+                </div>
+
+                <div class="company-grid">
+
+                    <article class="company-card">
+                        <span class="evidence strong">Caso empresarial documentado</span>
+                        <h4>Kohler Credit Union</h4>
+                        <p class="industry">Cooperativa financiera</p>
+                        <p>
+                            Utiliza RapidMiner Monarch para preparar información
+                            y automatizar el procesamiento de reportes financieros.
+                            La organización reportó reducir el procesamiento
+                            de informes de 600 páginas de dos horas a minutos.
+                        </p>
+                        <a href="https://resources.sw.siemens.com/en-US/case-study-kohler-credit-union/" target="_blank"
+                            rel="noopener">Consultar caso →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence strong">Caso empresarial documentado</span>
+                        <h4>Fasanara Capital</h4>
+                        <p class="industry">Inversiones y servicios financieros</p>
+                        <p>
+                            Emplea RapidMiner Panopticon para visualizar y
+                            analizar datos históricos y en tiempo real,
+                            apoyando el seguimiento de operaciones y
+                            decisiones en mercados financieros.
+                        </p>
+                        <a href="https://resources.sw.siemens.com/es-ES/case-study-fasanara-capital/" target="_blank"
+                            rel="noopener">Consultar caso →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence strong">Caso empresarial documentado</span>
+                        <h4>National Consumer Panel (NCP)</h4>
+                        <p class="industry">Investigación de mercados y consumo</p>
+                        <p>
+                            Utilizó RapidMiner para analizar datos estructurados
+                            y comentarios de consumidores. La minería de texto
+                            permitió identificar preocupaciones y tendencias
+                            para apoyar decisiones sobre participación de panelistas.
+                        </p>
+                        <a href="https://altair.com/docs/default-source/resource-library/altair_customerstory_letter_ncp_v1.pdf"
+                            target="_blank" rel="noopener">Consultar caso →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence strong">Caso empresarial documentado</span>
+                        <h4>American Magic</h4>
+                        <p class="industry">Deporte de alto rendimiento y tecnología náutica</p>
+                        <p>
+                            El equipo utilizó RapidMiner y otras soluciones
+                            de Altair para analizar variables de simulación
+                            y sensores, identificar factores que influyen
+                            en el rendimiento y apoyar decisiones de diseño.
+                        </p>
+                        <a href="https://www.casestudies.com/company/altair-knowledge-works/case-study/american-magic-customer-case-study"
+                            target="_blank" rel="noopener">Consultar caso →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence medium">Referencia empresarial previa</span>
+                        <h4>ezCater</h4>
+                        <p class="industry">Servicios de alimentación y tecnología</p>
+                        <p>
+                            Se ha reportado la selección de RapidMiner
+                            para desarrollar analítica predictiva y
+                            comprender el comportamiento de sus usuarios.
+                            Se recomienda revisar el comunicado corporativo
+                            original antes de utilizarlo como evidencia
+                            de un despliegue técnico específico.
+                        </p>
+                        <a href="https://www.rapidminer.com/" target="_blank" rel="noopener">Consultar plataforma →</a>
+                    </article>
+
+                </div>
+            </div>
+
+            <!-- ORANGE -->
+            <div class="company-group">
+                <div class="company-heading">
+                    <h3>Orange Data Mining</h3>
+                    <p>
+                        Las fuentes públicas consultadas muestran experiencias
+                        de aplicación y formación, pero no permiten confirmar
+                        cinco despliegues empresariales permanentes.
+                    </p>
+                </div>
+
+                <div class="company-grid">
+
+                    <article class="company-card">
+                        <span class="evidence medium">Taller empresarial documentado</span>
+                        <h4>Wärtsilä</h4>
+                        <p class="industry">Energía y tecnología marina</p>
+                        <p>
+                            El equipo de Orange documentó un taller de un día
+                            con Wärtsilä para explorar aplicaciones de minería
+                            de datos y aprendizaje automático en contextos
+                            empresariales.
+                        </p>
+                        <a href="https://orangedatamining.com/blog/business-case-studies-with-orange/" target="_blank"
+                            rel="noopener">Consultar experiencia →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence medium">Experiencia académica documentada</span>
+                        <h4>Baylor College of Medicine</h4>
+                        <p class="industry">Investigación biomédica</p>
+                        <p>
+                            Se han documentado experiencias de formación
+                            y utilización de Orange en análisis de datos
+                            dentro de actividades académicas y científicas.
+                        </p>
+                        <a href="https://orangedatamining.com/" target="_blank" rel="noopener">Consultar testimonios
+                            →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence medium">Experiencia científica documentada</span>
+                        <h4>SOLEIL Synchrotron</h4>
+                        <p class="industry">Investigación científica</p>
+                        <p>
+                            Un investigador de esta institución científica
+                            destaca el uso de Orange para análisis de datos
+                            y visualización en entornos de investigación.
+                        </p>
+                        <a href="https://orangedatamining.com/" target="_blank" rel="noopener">Consultar testimonios
+                            →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence medium">Experiencia académica documentada</span>
+                        <h4>University of Arizona</h4>
+                        <p class="industry">Educación e investigación</p>
+                        <p>
+                            Se reporta el uso de Orange en actividades
+                            de enseñanza y análisis dentro del área de
+                            informática biomédica.
+                        </p>
+                        <a href="https://orangedatamining.com/" target="_blank" rel="noopener">Consultar testimonios
+                            →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence medium">Uso formativo documentado</span>
+                        <h4>Comunidad académica y científica</h4>
+                        <p class="industry">Formación en ciencia de datos</p>
+                        <p>
+                            Orange publica experiencias de talleres y
+                            actividades formativas dirigidas a estudiantes,
+                            profesores e investigadores. Esta referencia
+                            representa una comunidad de usuarios y no una
+                            empresa individual identificada.
+                        </p>
+                        <a href="https://orangedatamining.com/" target="_blank" rel="noopener">Consultar sitio oficial
+                            →</a>
+                    </article>
+
+                </div>
+            </div>
+
+            <!-- WEKA -->
+            <div class="company-group">
+                <div class="company-heading">
+                    <h3>WEKA</h3>
+                    <p>
+                        La evidencia pública de casos empresariales específicos
+                        del software académico WEKA es limitada. Se incluyen
+                        registros de detección tecnológica de terceros que
+                        deben interpretarse con precaución.
+                    </p>
+                </div>
+
+                <div class="company-grid">
+
+                    <article class="company-card">
+                        <span class="evidence limited">Registro tecnológico de terceros</span>
+                        <h4>ManTech International</h4>
+                        <p class="industry">Servicios tecnológicos y defensa</p>
+                        <p>
+                            Figura en un directorio externo que identifica
+                            organizaciones asociadas a la tecnología WEKA.
+                            El registro no sustituye un caso de uso publicado
+                            por la propia empresa.
+                        </p>
+                        <a href="https://theirstack.com/en/technology/weka" target="_blank" rel="noopener">Consultar
+                            directorio →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence limited">Registro tecnológico de terceros</span>
+                        <h4>Qumulo</h4>
+                        <p class="industry">Software e infraestructura de datos</p>
+                        <p>
+                            Aparece en el directorio de tecnologías de
+                            terceros asociado a WEKA. Se requiere una
+                            fuente corporativa adicional para confirmar
+                            el uso concreto del software de minería de datos.
+                        </p>
+                        <a href="https://theirstack.com/en/technology/weka" target="_blank" rel="noopener">Consultar
+                            directorio →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence limited">Registro tecnológico de terceros</span>
+                        <h4>Niagara Bottling</h4>
+                        <p class="industry">Alimentos y bebidas</p>
+                        <p>
+                            Se encuentra en un listado externo de empresas
+                            asociadas a la tecnología WEKA. No se dispone
+                            en esta revisión de un caso público que detalle
+                            un proyecto con el software académico WEKA.
+                        </p>
+                        <a href="https://theirstack.com/en/technology/weka" target="_blank" rel="noopener">Consultar
+                            directorio →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence limited">Registro tecnológico de terceros</span>
+                        <h4>Lambda</h4>
+                        <p class="industry">Computación e inteligencia artificial</p>
+                        <p>
+                            Figura en el directorio de terceros. La
+                            información disponible no describe por sí sola
+                            el alcance ni la finalidad del uso de WEKA.
+                        </p>
+                        <a href="https://theirstack.com/en/technology/weka" target="_blank" rel="noopener">Consultar
+                            directorio →</a>
+                    </article>
+
+                    <article class="company-card">
+                        <span class="evidence limited">Registro tecnológico de terceros</span>
+                        <h4>Globe Telecom</h4>
+                        <p class="industry">Telecomunicaciones</p>
+                        <p>
+                            Aparece en el listado externo de organizaciones
+                            relacionadas con la tecnología WEKA. Es necesario
+                            validar de manera independiente si corresponde
+                            al software de minería de datos desarrollado
+                            por la Universidad de Waikato.
+                        </p>
+                        <a href="https://theirstack.com/en/technology/weka" target="_blank" rel="noopener">Consultar
+                            directorio →</a>
+                    </article>
+
+                </div>
+            </div>
+
+            <div class="info-box warning-box">
+                <strong></strong>
+
+            </div>
+        </section>
+
+        <!-- ANÁLISIS -->
+        <section class="section section-light" id="analisis">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">INTERPRETACIÓN</p>
+                    <h2>Análisis de eficiencia</h2>
+                </div>
+
+                <div class="analysis-content">
+                    <article class="analysis-card">
+                        <h3>WEKA</h3>
+                        <p>
+                            Su principal fortaleza se encuentra en la
+                            experimentación con algoritmos de aprendizaje
+                            automático. Permite comparar modelos y estudiar
+                            técnicas de clasificación, regresión y agrupamiento.
+                            Puede resultar conveniente en proyectos académicos
+                            y pruebas controladas. Su enfoque es menos amplio
+                            para automatizar procesos empresariales complejos
+                            que plataformas especializadas en flujos ETL.
+                        </p>
+                    </article>
+
+                    <article class="analysis-card">
+                        <h3>KNIME</h3>
+                        <p>
+                            Destaca por la integración de datos y la
+                            construcción de flujos de trabajo reutilizables.
+                            Su interfaz visual facilita la automatización
+                            de procesos analíticos y permite combinar
+                            herramientas de programación con operaciones
+                            de transformación de datos. Es una alternativa
+                            sólida para organizaciones que necesitan
+                            estandarizar procesos y conectar distintas fuentes.
+                        </p>
+                    </article>
+
+                    <article class="analysis-card">
+                        <h3>Orange</h3>
+                        <p>
+                            Su facilidad de uso y sus visualizaciones
+                            interactivas favorecen el aprendizaje y la
+                            exploración de datos. Permite construir
+                            prototipos de modelos sin desarrollar
+                            grandes cantidades de código. Puede ser
+                            especialmente útil en formación, investigación
+                            y análisis exploratorio.
+                        </p>
+                    </article>
+
+                    <article class="analysis-card">
+                        <h3>RapidMiner</h3>
+                        <p>
+                            Se orienta a proyectos de analítica avanzada,
+                            preparación de datos y modelado predictivo.
+                            Sus funcionalidades pueden apoyar procesos
+                            organizacionales que requieren desarrollar,
+                            evaluar y gestionar modelos analíticos.
+                            La disponibilidad de características depende
+                            de la edición y del entorno contratado.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="recommendation">
+                    <h3>¿Cuál herramienta conviene utilizar?</h3>
+                    <p>
+                        No existe una herramienta universalmente superior.
+                        La elección debe responder al objetivo del proyecto,
+                        la experiencia del equipo, el volumen de datos,
+                        la infraestructura disponible y las necesidades
+                        de integración y automatización.
+                    </p>
+
+                    <ul>
+                        <li><strong>WEKA:</strong> experimentación con algoritmos y aprendizaje automático.</li>
+                        <li><strong>KNIME:</strong> integración, transformación y automatización de datos.</li>
+                        <li><strong>Orange:</strong> exploración visual, formación y prototipado.</li>
+                        <li><strong>RapidMiner:</strong> analítica avanzada y desarrollo de modelos predictivos.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+</html>
